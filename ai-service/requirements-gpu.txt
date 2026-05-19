@@ -1,0 +1,14 @@
+-r requirements.txt
+
+# Use Python 3.11 or 3.12 for GPU/model installs on Windows or Linux.
+# Python 3.14 support is still too new for many AI packages.
+numpy>=2.2.0
+pillow>=11.0.0
+
+# Install a CUDA-specific torch build from pytorch.org for your GPU host.
+# Example for CUDA 12.4:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+
+trimesh==4.5.3
+opencv-python-headless==4.10.0.84
+rembg==2.0.61
